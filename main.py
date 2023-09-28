@@ -34,7 +34,7 @@ def recibir_comentario():
             server.login(user=SMTP_USERNAME, password=SMTP_PASSWORD)
             server.sendmail(
                 from_addr=SMTP_USERNAME,
-                to_addrs='web.mercadeo@grupo-pb.com',
+                to_addrs='chepechay16@gmail.com',
                 msg=email_message,
             )
             server.close()
